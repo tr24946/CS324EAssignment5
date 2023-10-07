@@ -30,4 +30,5 @@ pos (PVector): x,y center of the car
 speed (float, default = 1): How fast the car is moving per frame (how many pixels)
 start_loc (float, default = 0): The starting location of the object
 wheel_angle (float): How fast the wheels rotate
+
 Similar to the last assignment, the object will be going in a straight line across the screen. The pos is the position of the car, and the speed is how fast it moves across the screen. I will use the different geometry methods to create the different components of the vehicle, and then use the circle method to create wheels that will rotate as the car moves across the screen. Then once the car reaches the end of the screen, a new car with a different color will start driving onto the screen. There will be no user input. I might try to input some depth to make it seem like the car is swerving on the road if possible.
